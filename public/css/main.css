@@ -11,3 +11,23 @@
 .bg-light {
   background: white!important;
 }
+.secTwo {
+  outline: 1px solid red;
+  color: #013e7d;
+}
+.item {
+  list-style: none;
+}
+.item img {
+  width: 15px;
+  height: 15px;
+}
+.item span {
+  padding-left: 7px;
+}
+aside {
+  outline: 1px solid black;
+}
+aside img {
+  width: 100%;
+}
