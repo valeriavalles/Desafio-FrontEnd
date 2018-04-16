@@ -9,7 +9,7 @@ $('#slider-cont').slick({
       breakpoint: 1024,
       settings: {
         slidesToShow: 4,
-        infinite: true
+        infinite: false
       }
     }, 
     {

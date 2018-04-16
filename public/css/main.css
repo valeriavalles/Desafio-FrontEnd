@@ -66,6 +66,13 @@ h3 {
   font-weight: 550;
   font-size: 18px;
 }
+.container-slider {
+  outline: 1px solid red;
+  padding: 2%;
+}
+.item-slick {
+  display: inline-block;
+}
 
 
 @media (min-width:1024px){
