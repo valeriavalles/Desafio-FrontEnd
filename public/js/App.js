@@ -1,27 +1,29 @@
-$('#slider-cont').slick({
+$("#slider-cont").slick({
 
-    // normal options...
-    infinite: false,
-    
-    // the magic
-    responsive: [{
-    
+  // normal options...
+  infinite: true,
+
+  // the magic
+  responsive: [{
+
       breakpoint: 1024,
       settings: {
         slidesToShow: 4,
-        infinite: false
+        infinite: true
       }
-    }, 
-    {
+
+    }, {
+
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        // dots: true
-    }
-    }, 
-    {
+        dots: true
+      }
+
+    }, {
+
       breakpoint: 300,
-      // settings: "unslick" // destroys slick
-    
+      //settings: "unslick" // destroys slick
+
     }]
-  });
+});
