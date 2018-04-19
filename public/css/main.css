@@ -13,6 +13,9 @@
 }
 .secTwo {
   outline: 1px solid red;
+  margin-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   color: #013e7d;
   font-family: 'Open Sans', sans-serif;
 }
@@ -44,9 +47,9 @@ h3 {
 }
 .title, .cont-iso {
   /* outline: 1px solid blue; */
-  padding-top: 2%;
-  padding-left: 8%;
-  padding-right: 8%;
+  /* padding-top: 2%; */
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .margin {
   margin-bottom: 5%;
@@ -108,7 +111,81 @@ h3 {
 .cont-ayuda {
   margin-top: 10%;
   margin-bottom: 10%;
+  color: #013e7d;
 }
+.cont-ayuda h2 {
+  font-weight: 700;
+}
+.subRayado {
+  width: 100px;
+  height: 2px;
+  background: #013e7d;
+  /* display: inline-block; */
+}
+.cont-contac {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.cont-contac h2 {
+  margin-bottom: 0;
+  color: #013e7d;
+}
+.diferente {
+  /* outline: 1px solid black; */
+  margin-top: 8%;
+  margin-bottom: 6%;
+  margin-left: 7%;
+  margin-right: 7%;
+   padding-left: 2%;
+  padding-right: 2%; 
+  padding-bottom: 5%;
+  border-bottom: 1px solid #979797;
+}
+.diferente p {
+  color: #979797;
+  margin-top: 3%;
+}
+.diferente .n, .t {
+  margin-bottom: 4%;
+  margin-top: 2%; 
+}
+.content-form {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.input .form-control {
+  background: #f7f7f7;
+  height: 30px;
+}
+.textarea {
+  background: #f7f7f7;
+}
+.btn-blue {
+  width: 150px;
+  background: #003786;
+  color: #fff;
+}
+footer {
+  background: #015486;
+}
+.datos-footer {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  color: #fff;
+}
+.datos-footer a {
+  margin-top: 2%;
+  color: #fff;
+}
+h6 {
+  padding-top: 2%;
+}
+.datos-footer img {
+  margin-left: 2%;
+}
+
 
 
 @media (min-width:1024px){
@@ -120,4 +197,32 @@ h3 {
     padding-left: 6.5%;
     padding-right: 6.5%;
   }
+}
+@media (min-width:992px){
+  
+  .secTwo {
+    margin-top: 2%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+  }
+  .title, .cont-iso {
+    /* outline: 1px solid blue; */
+    /* padding-top: 2%; */
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+  }
+  .content-form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 27%;
+    padding-right: 27%;
+  }
+}
+
+
+.border {
+  outline: 1px solid green;
+}
+header {
+  outline: 1px solid black;
 }
