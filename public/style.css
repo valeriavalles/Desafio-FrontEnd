@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+header {
+    outline: 1px solid red;
+    background: rgb(133, 216, 219);
+    position: fixed;
+    z-index: 1;
+}
+.cont-h-icon {
+    outline: 1px solid black;
+    padding: 2%;
+    /* padding-left: 21.5%; */
+}
+.imagen-h {
+    padding-left: 24.5%;
+}
+ .h-scroll {
+     padding-top: 2%;
+     padding-left: 8%;
+     padding-right: 5%;
+    /* p-adding-right: 5%;
+    padding-left: 5%; */
+} 
+.h-scroll   {
+    outline: 1px solid blue;
+    /* display: none; */
+}
+.item-a, .item-a a{
+    outline: 1px solid red;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 1.5%;
+    /* padding-right: 5%; */
+}
+.h-scroll li {
+ text-decoration: none;
+ list-style: none;
+ display: inline-block;
+}
+
+.cont-h-icon a {
+    color: #fff;
+    margin-top: 2%;
+}
+/* .center {
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+} */
+button {
+    margin-top: 20%;
+    background: #DC3545;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(238, 49, 49, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #CAAAAA;
+    display: block;
+    transition: 0.3s;
+}
