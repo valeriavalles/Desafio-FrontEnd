@@ -5,6 +5,33 @@
   font-family: 'Open Sans';
 }
 
+.container-B-screen {
+  padding-top: 8%;
+}
+.corousel-btst{
+  padding-left: 0;
+  padding-right: 0;
+}
+.carousel-indicators li {
+  background: url(../assets/Recursos/icon-1.png)  !important;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  border: none;
+  margin: 0 2px;
+ 
+}
+.carousel-indicators .active  {
+  background: url(../assets/Recursos/icon1.png)!important;
+  background-repeat: no-repeat !important;
+  height: 26px;
+  width: 26px;
+  border: none;
+  margin: -2px 2px;
+  background: transparent;
+  
+}
+
 .logo {
   background: white;
 }
@@ -12,7 +39,7 @@
   background: white!important;
 }
 .secTwo {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-top: 20%;
   padding-left: 10%;
   padding-right: 10%;
@@ -29,9 +56,7 @@
 .item span {
   padding-left: 7px;
 }
-aside {
-  outline: 1px solid black;
-}
+
 aside img {
   width: 100%;
 }
@@ -58,7 +83,7 @@ h3 {
   background: url(../assets/Recursos/fondo2.png);
   height: 220px;
   background-size: cover;
-  outline: 1px solid black;
+   outline: 1px solid black; 
   color: #fff;
   padding-top: 8%;
 }
@@ -74,26 +99,41 @@ h3 {
   padding-left: 5%;
   padding-right: 10%;
 }
-.item-slick {
-  display: inline-block;
-}
+
 /*--- SLIDER ---*/
 
- .slick-next { 
-  top: 25px;
-} 
-.slick-prev { 
-  top: 25px; 
-} 
-.slick-prev:before {
-  content: url(../assets/Recursos/arrow-l.png);
-  margin-right: 10px;
-}
-.slick-next::before {
-  content: url(../assets/Recursos/arrow-r.png);
+.content-slick {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top:18.5%;
+  margin-bottom: 10%;
 }
 
- 
+.slick-prev:before {
+  content: none !important;
+}
+
+.slick-next:before {
+  content: none!important;
+}
+.slick-prev {
+  background-image: url(../assets/Recursos/arrow-l.png) !important;
+  background-repeat: no-repeat !important;
+  height: 60px;
+  width: 60px;
+  left: -60px;
+  /* left: 20px !important; */
+}
+
+.slick-next {
+  background-image: url(../assets/Recursos/arrow-r.png) !important;
+  background-repeat: no-repeat !important;
+  height: 60px;
+  width: 60px;
+  right: -60px;
+  /* right: 24px !important; */
+}
+
 #slider-cont {
   /* outline: 1px solid blueviolet; */
   margin: 2%;
@@ -109,8 +149,8 @@ h3 {
 }
 /*---- SECTION AYUDA ----*/
 .cont-ayuda {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 16%;
+  margin-bottom: 18%;
   color: #013e7d;
 }
 .cont-ayuda h2 {
@@ -220,9 +260,6 @@ h6 {
 }
 
 
-.border {
+/* .border {
   outline: 1px solid green;
-}
-header {
-  outline: 1px solid black;
-}
+} */

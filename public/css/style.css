@@ -7,28 +7,35 @@ body {
     margin: 0;
 }
 header {
-    outline: 1px solid red;
-    background: rgb(133, 216, 219);
+    background: #fff;
     position: fixed;
     top: 0px;
-    z-index: 1;
+    z-index: 9999;
 }
 .cont-h-icon {
-    outline: 1px solid black;
     padding: 2%;
     /* padding-left: 21.5%; */
 }
 .menu {
     width: 50px;
     height: 50px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-top: 2%;
+}
+/* #menu {
+    outline: 1px solid black;
+} */
+.menu-mobile {
+    /* outline: 1px solid blue; */
+    padding: 2%;
+}
+.menu-mobile .logo {
+    width: 100%;
 }
 .imagen-h {
     padding-left: 24.5%;
 }
  .h-scroll {
-    outline: 1px solid blue;
      padding-top: 2%;
      padding-left: 5%;
      padding-right: 5%;
@@ -36,11 +43,10 @@ header {
     padding-left: 5%; */
 } 
 .item-a, .item-a a{
-    outline: 1px solid red;
-    color: #fff;
+    color: #868686;
     text-decoration: none;
-    font-weight: 600;
-    padding-top: 1.5%;
+    font-weight: bold;
+    padding-top: 2.5%;
     /* padding-right: 5%; */
 }
 .h-scroll li {
@@ -50,14 +56,19 @@ header {
 }
 
 .cont-h-icon a {
-    color: #fff;
+    color: #868686;
+    font-weight: bold;
     margin-top: 2%;
+}
+.a-item-h {
+    /* outline: 1px solid red; */
+    margin-top: 3.2%;
 }
 .overlay {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 9999999;
     top: 0;
     left: 0;
     background: rgba(1,84,134,0.9);
@@ -81,13 +92,13 @@ header {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #CAAAAA;
+    color: #fff;
     display: block;
     transition: 0.3s;
 }
-.content-navbar-one {
+/* .content-navbar-one {
     outline: 1px solid purple;
-}
+} */
 @media (min-width:765px){
     /* .menu-mobile {
         display: none;
