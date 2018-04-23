@@ -12,35 +12,58 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css"> 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand"  href="#">
+      
+    <header class="container-fluid">
+        <section class="content-navbar-one d-none d-md-block">
+                <nav class="row cont-h-icon " id="scroll-cero">
+                        <div class="col-md-9 text-center imagen-h" >
+                            <img src="assets/Recursos/logo22.jpg" alt="logo">
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <img src="https://desafio-openlab-frontend.mybluemix.net/app/img/cambios/1.png" alt="imagen1">
+                            <img src="https://desafio-openlab-frontend.mybluemix.net/app/img/cambios/2.png" alt="imagen2">
+                            <img src="https://desafio-openlab-frontend.mybluemix.net/app/img/cambios/3.png" alt="imagen3">
+                        </div>
+                        <div class="w-100"></div>
+                        <!-- <div class="col-md-12 text-center"> -->
+                          <div class="col-md-3 text-center"><a  href="#">Inicio</a></div>
+                          <div class="col-md-3 text-center"><a  href="#">Nosotros</a></div>
+                          <div class="col-md-3 text-center"><a  href="#">Servicios</a></div>
+                          <div class="col-md-3 text-center"><a  href="#">Contáctenos</a></div>
+                        <!-- </div> -->
+                    </nav>
+                    <nav class="row  h-scroll " id="scroll" >
+                       <figure class="col-md-4 "><img src="assets/Recursos/logo22.jpg" alt="logo22"></figure>    
+                       <div class="col-md-2 item-a"><a class="col-md-2" href="#">Inicio</a></div>  
+                       <div class="col-md-2 item-a"><a class="col-md-2 " href="#">Nosotros</a></div>
+                       <div class="col-md-2 item-a"><a class="col-md-2 " href="#">Servicios</a></div>
+                       <div class="col-md-2 item-a"><a class="col-md-2 " href="#">Contáctenos</a></div> 
+                    </nav>
+        </section>
+        <nav class="row menu-mobile d-md-none" id="menu-mobile" >
+            <div class="col-5 col-sm-5 col-md-5">
                 <img class="logo" src="assets/Recursos/logo22.jpg" alt="logo22">
-            </a>
-            <a class="navbar-toggler"  data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </a>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contáctenos</a>
-                </li>
-              </ul>
             </div>
-          </nav> 
-  </header>
+            <div class="col-5 col-sm-6 col-md-6 text-right"  >
+                  <img class="menu" id="menu" src="http://hiponoo.com/img/menu_movil.png" alt="menu">
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="menus" class="overlay">
+        <a href="javascript:void(0)" class="close" id="close" >&times;</a>
+        <div class="overlay-content">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contáctenos</a>
+        </div>
+    </div>
   <main>
     <section>
       
@@ -215,6 +238,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+  <script src="js/screen.js"></script>
   <script src="js/app.js"></script>
 </body>
 

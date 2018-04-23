@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
 }
@@ -5,6 +10,7 @@ header {
     outline: 1px solid red;
     background: rgb(133, 216, 219);
     position: fixed;
+    top: 0px;
     z-index: 1;
 }
 .cont-h-icon {
@@ -12,20 +18,23 @@ header {
     padding: 2%;
     /* padding-left: 21.5%; */
 }
+.menu {
+    width: 50px;
+    height: 50px;
+    outline: 1px solid red;
+    margin-top: 2%;
+}
 .imagen-h {
     padding-left: 24.5%;
 }
  .h-scroll {
+    outline: 1px solid blue;
      padding-top: 2%;
-     padding-left: 8%;
+     padding-left: 5%;
      padding-right: 5%;
     /* p-adding-right: 5%;
     padding-left: 5%; */
 } 
-.h-scroll   {
-    outline: 1px solid blue;
-    /* display: none; */
-}
 .item-a, .item-a a{
     outline: 1px solid red;
     color: #fff;
@@ -44,23 +53,6 @@ header {
     color: #fff;
     margin-top: 2%;
 }
-/* .center {
-     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); 
-} */
-button {
-    margin-top: 20%;
-    background: #DC3545;
-    border: none;
-    color: #fff;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-}
 .overlay {
     height: 100%;
     width: 0;
@@ -68,7 +60,7 @@ button {
     z-index: 1;
     top: 0;
     left: 0;
-    background: rgba(238, 49, 49, 0.9);
+    background: rgba(1,84,134,0.9);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -92,4 +84,17 @@ button {
     color: #CAAAAA;
     display: block;
     transition: 0.3s;
+}
+.content-navbar-one {
+    outline: 1px solid purple;
+}
+@media (min-width:765px){
+    /* .menu-mobile {
+        display: none;
+    }  */
+}
+@media (max-width:765px){
+    /* .h-scroll, .cont-h-icon {
+        display: none;
+    } */
 }
