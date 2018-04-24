@@ -27,11 +27,47 @@
   height: 26px;
   width: 26px;
   border: none;
-  margin: -2px 2px;
+  margin: 0px 2px;
   background: transparent;
   
 }
-
+.caption-1 {
+  background: url(../assets/Recursos/slider11.jpg)
+              center center  no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+}
+.caption-2 {
+  background: url(../assets/Recursos/slider22.jpg)
+              center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+}
+.caption-3 {
+  background: url(../assets/Recursos/slider33.jpg)
+              center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 85vh;
+}
+.carousel-caption {
+  bottom: 50px;
+}
+.item-text {
+  padding-top: 30%;
+}
+.item-text h2 {
+  font-weight: bold;
+  color: #2c5485;
+}
+.item-text span {
+  font-size: 27px;
+}
+.item-text p {
+  color: #fff;
+}
 .logo {
   background: white;
 }
@@ -256,6 +292,14 @@ h6 {
     margin-bottom: 5%;
     padding-left: 27%;
     padding-right: 27%;
+  }
+}
+@media (min-width:765px){
+  .container-B-screen {
+    padding-top: 12%;
+  }
+  .item-text {
+    padding-top: 15%;
   }
 }
 

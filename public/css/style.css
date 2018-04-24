@@ -14,19 +14,13 @@ header {
 }
 .cont-h-icon {
     padding: 2%;
-    /* padding-left: 21.5%; */
 }
 .menu {
     width: 50px;
     height: 50px;
-    /* outline: 1px solid red; */
     margin-top: 2%;
 }
-/* #menu {
-    outline: 1px solid black;
-} */
 .menu-mobile {
-    /* outline: 1px solid blue; */
     padding: 2%;
 }
 .menu-mobile .logo {
@@ -39,15 +33,12 @@ header {
      padding-top: 2%;
      padding-left: 5%;
      padding-right: 5%;
-    /* p-adding-right: 5%;
-    padding-left: 5%; */
 } 
 .item-a, .item-a a{
     color: #868686;
     text-decoration: none;
     font-weight: bold;
     padding-top: 2.5%;
-    /* padding-right: 5%; */
 }
 .h-scroll li {
  text-decoration: none;
@@ -61,7 +52,6 @@ header {
     margin-top: 2%;
 }
 .a-item-h {
-    /* outline: 1px solid red; */
     margin-top: 3.2%;
 }
 .overlay {
@@ -95,17 +85,4 @@ header {
     color: #fff;
     display: block;
     transition: 0.3s;
-}
-/* .content-navbar-one {
-    outline: 1px solid purple;
-} */
-@media (min-width:765px){
-    /* .menu-mobile {
-        display: none;
-    }  */
-}
-@media (max-width:765px){
-    /* .h-scroll, .cont-h-icon {
-        display: none;
-    } */
 }
