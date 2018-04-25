@@ -119,9 +119,13 @@ h3 {
   background: url(../assets/Recursos/fondo2.png);
   height: 220px;
   background-size: cover;
-   outline: 1px solid black; 
   color: #fff;
-  padding-top: 8%;
+  padding-top: 5%;
+}
+.iso:hover {
+  background: url(../assets/Recursos/fondo1.png);
+  /* height: 220px; */
+  background-size: cover;
 }
 .iso h3  {
   font-weight: 730;
@@ -129,6 +133,9 @@ h3 {
 .iso span{
   font-weight: 550;
   font-size: 18px;
+}
+.iso p {
+  margin-top: 1.5%;
 }
 .container-slider {
   /* outline: 1px solid red; */
@@ -247,7 +254,7 @@ footer {
   background: #015486;
 }
 .datos-footer {
-  padding-top: 2%;
+  padding-top: 5%;
   padding-bottom: 5%;
   color: #fff;
 }

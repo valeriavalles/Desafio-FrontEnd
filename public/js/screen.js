@@ -15,12 +15,12 @@ $(document).ready(function(){
         
          $('#scroll-cero').hide();
          $('#scroll').show();
-         console.log('atroabajo');
+         //console.log('atroabajo');
      } else {
         
         $('#scroll-cero').show();
         $('#scroll').hide();
-        console.log('otroarriba');  
+        //console.log('otroarriba');  
      }
   }
   
