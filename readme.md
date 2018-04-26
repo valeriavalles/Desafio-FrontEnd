@@ -13,6 +13,15 @@ Para ello se utilizaron las siguientes Herramientas.
 + LIBRERIA ANIMATE.CSS
 
 
+![image](https://user-images.githubusercontent.com/32329268/39327199-f55192d2-495c-11e8-9227-b8e9c6e30619.png)
+
+
+### DESARROLLADO PARA
+
+[OpenLab]
+
+
+
 
 
 
