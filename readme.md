@@ -12,13 +12,11 @@ Para ello se utilizaron las siguientes Herramientas.
 + LIBRERIA SLICK SLIDER
 + LIBRERIA ANIMATE.CSS
 
-
-![image](https://user-images.githubusercontent.com/32329268/39327199-f55192d2-495c-11e8-9227-b8e9c6e30619.png)
-
+![image](https://user-images.githubusercontent.com/32329268/39327663-44147d84-495e-11e8-9bcd-fe7fd7303acd.png)
 
 ### DESARROLLADO PARA
 
-[OpenLab]
+#### OpenLab
 
 
 
