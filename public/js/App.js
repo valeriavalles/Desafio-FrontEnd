@@ -51,7 +51,7 @@ $("#slider-cont").slick({
       
     ]
 });
-
+/*----- ISO EFECTOS -----*/
   $('.iso-text').hide();
   $('.iso-text-two').hide();
   $('.iso-text-three').hide();

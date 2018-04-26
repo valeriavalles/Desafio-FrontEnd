@@ -22,12 +22,11 @@ $(document).ready(function(){
         $('#scroll').hide();
         //console.log('otroarriba');  
      }
-  }
-  
-window.onscroll = function() {
-    myScrollOne();
+    }
 
-};  
+  window.onscroll = function() {
+    myScrollOne();
+  };  
 });
 
 

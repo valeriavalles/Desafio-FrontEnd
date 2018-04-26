@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-}
+/*------ HEADER ------*/
 header {
     background: #fff;
     position: fixed;
@@ -103,10 +96,6 @@ header {
 .redes {
     padding-top: 2%;
 }
-/* .btn-menu {
-    outline: 1px solid blue;
-} */
-
 .item-raya {
     
     width: 35px;

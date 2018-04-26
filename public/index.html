@@ -6,41 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Reto Front</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css"> 
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css"> 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--******* Header *******-->
     <header class="container-fluid">
         <section class="content-navbar-one d-none d-md-block">
-                   <nav class="row cont-h-icon " id="scroll-cero">
-                        <div class="col-md-9 text-center imagen-h" >
-                            <img src="assets/Recursos/logo22.jpg" alt="logo">
-                        </div>
-                        <div class="col-md-2 text-center redes">
-                            <img  src="assets/iconos-img/fb1.png" alt="fb">
-                            <img id="inst" src="assets/iconos-img/inst1.png" alt="imagen2">
-                            <img id="wt" src="assets/iconos-img/wt1.png" alt="imagen3">
-                        </div>
-                        <div class="w-100"></div>
-                        <!-- <div class="col-md-12 text-center"> -->
-                          <div class="col-md-3 text-center a-item-h "><a  href="#" class="active-a">Inicio</a></div>
-                          <div class="col-md-3 text-center a-item-h"><a  href="#">Nosotros</a></div>
-                          <div class="col-md-3 text-center a-item-h"><a  href="#">Servicios</a></div>
-                          <div class="col-md-3 text-center a-item-h"><a  href="#">Contáctenos</a></div>
-                        <!-- </div> -->
-                    </nav>
-                    <nav class="row  h-scroll " id="scroll" >
-                       <figure class="col-md-4 "><img src="assets/Recursos/logo22.jpg" alt="logo22"></figure>    
-                       <div class="col-md-2 item-a"><a class="active-a"  href="#">Inicio</a></div>  
-                       <div class="col-md-2 item-a"><a  href="#">Nosotros</a></div>
-                       <div class="col-md-2 item-a"><a  href="#">Servicios</a></div>
-                       <div class="col-md-2 item-a"><a  href="#">Contáctenos</a></div> 
-                    </nav>
+          <nav class="row cont-h-icon animated  bounceInLeft" id="scroll-cero">
+            <div class="col-md-9 text-center imagen-h" >
+              <img src="assets/Recursos/logo22.jpg" alt="logo">
+            </div>
+            <div class="col-md-2 text-center redes">
+              <img  src="assets/iconos-img/fb1.png" alt="fb">
+              <img id="inst" src="assets/iconos-img/inst1.png" alt="imagen2">
+              <img id="wt" src="assets/iconos-img/wt1.png" alt="imagen3">
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-3 text-center  a-item-h "><a class="animated infinite bounce active-a"  href="#Inicio" >Inicio</a></div>
+            <div class="col-md-3 text-center  a-item-h"><a  class="animated infinite bounce" href="#Nosotros">Nosotros</a></div>
+            <div class="col-md-3 text-center  a-item-h"><a  class="animated infinite bounce" href="#Servicios">Servicios</a></div>
+            <div class="col-md-3 text-center  a-item-h"><a  class="animated infinite bounce" href="#Contactenos">Contáctenos</a></div>
+          </nav>
+            <nav class="row  h-scroll animated  bounceInLeft " id="scroll" >
+              <figure class="col-md-4 "><img src="assets/Recursos/logo22.jpg" alt="logo22"></figure>    
+              <div class="col-md-2 item-a"><a class="active-a"  href="#Inicio">Inicio</a></div>  
+              <div class="col-md-2 item-a"><a  href="#Nosotros">Nosotros</a></div>
+              <div class="col-md-2 item-a"><a  href="#Servicios">Servicios</a></div>
+              <div class="col-md-2 item-a"><a  href="#Contactenos">Contáctenos</a></div> 
+            </nav>
         </section>
         <nav class="row menu-mobile d-md-none text-right" id="menu-mobile" >
             <div class="col-6 col-sm-4 col-md-6">
@@ -52,22 +52,22 @@
                     <div class="item-raya"></div>
                     <div class="item-raya"></div>
                 </div>
-                  <!-- <img class="menu" id="menu" src="http://hiponoo.com/img/menu_movil.png" alt="menu"> -->
             </div>
         </nav>
     </header>
     <div id="menus" class="overlay">
         <a href="javascript:void(0)" class="close" id="close" >&times;</a>
         <div class="overlay-content">
-          <div><a href="#">Inicio</a></div>
-          <div><a href="#">Nosotros</a></div>  
-          <div><a href="#">Servicios</a></div>
-          <div><a href="contacto">Contáctenos</a></div>
+          <div><a href="#Inicio">Inicio</a></div>
+          <div><a href="#Nosotros">Nosotros</a></div>  
+          <div><a href="#Servicios">Servicios</a></div>
+          <div><a href="#Contactenos">Contáctenos</a></div>
         </div>
     </div>
   <main>
+    <!--******* Inicio *******-->
     <section class="container-B-screen" >
-      <div class="container-fluid corousel-btst">
+      <div class="container-fluid corousel-btst" id="Inicio">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -102,12 +102,12 @@
               </div>
             </div>
       </div>
-      
     </section>
-    <section class="" >
+    <!--******* Nosotros ******-->
+    <section class="" id="Nosotros" >
      <div class="container"> 
       <div class="row secTwo ">
-        <div class="col-md-6">
+        <div class=" col-md-6">
           <div class="cont-somos content">
             <h3>Quiénes Somos</h3>
             <p>Somos una empresa dedicada a brindar consultoría en implementación de sistemas de gestión y soluciones integrales en mejora de procesos,
@@ -131,39 +131,38 @@
       </div>
      </div> 
     </section>
-    <section class="cont-border">
+    <!--****** Servicios ******-->
+    <section class="cont-border" id="Servicios">
       <div class="container">
           <div class="row title col-md-12">
             ESTÁNDARES INTERNACIONALES
           </div>
           <div class="row cont-iso  " >
-            
-                <div class=" col-sm-6 col-md-3 iso text-center" id="cont-text-iso">
+                 <div class=" col-sm-6 col-md-3 iso text-center" id="cont-text-iso">
                     <h3>ISO</h3>
                     <span>9001:2015</span>
-                    <p class="iso-text">Sistema de Gestión de la Calidad</p>
+                    <p class="iso-text animated bounceInUp">Sistema de Gestión de la Calidad</p>
                   </div>
                   <div class="col-sm-6 col-md-3 iso text-center " id="cont-text-2">
                     <h3>ISO</h3> 
                     <span>45001:2018</span>
-                    <p class="iso-text-two">Sistema de Gestión de la Seguridad y Salud en el Trabajo</p>
+                    <p class="iso-text-two animated bounceInUp">Sistema de Gestión de la Seguridad y Salud en el Trabajo</p>
                   </div>
                   <div class="col-sm-6 col-md-3 iso text-center" id="cont-text-3">
                     <h3>ISO</h3>
                     <span>14001:2015</span>
-                    <p class="iso-text-three">Sistema de Gestión Ambiental</p>
+                    <p class="iso-text-three animated bounceInUp">Sistema de Gestión Ambiental</p>
                   </div>
                   <div class="col-sm-6 col-md-3 iso text-center" id="cont-text-4">
                     <h3>ISO</h3>
-                    <span>17025:2017</span>
-                    <p class="iso-text-four">Sistema de Gestión para Laboratorios de Ensayo y Calibración</p>
+                    <span >17025:2017</span>
+                    <p class="iso-text-four animated bounceInUp">Sistema de Gestión para Laboratorios de Ensayo y Calibración</p>
                   </div>
             </div>
           </div>
-          
       </div>
-        
     </section>
+    <!--****** Slider Slick ******-->
     <section >
       <div class="content-slick">
           <div id="slider-cont" data-slick='{"slidesToShow":4 , "slidesToScroll":4 }'>
@@ -196,7 +195,8 @@
           </div>
        </div>
     </section>
-    <section class="container"> 
+    <!--******Contactenos******-->
+    <section class="container" id="Contactenos"> 
        <div class="row cont-contac ">
           <div class="col-md-12">
              <h2 class="">Contáctenos</h2>
@@ -204,7 +204,6 @@
           </div>
        </div>
        <div class="row  diferente">    
-           <!-- <div class="col-md-12"> -->
              <div class="col-md-4 n text-center">
                <img src="assets/iconos-img/cel.png" alt="cel"><br>
                <div class="t"><span>Teléfono</span></div>
@@ -222,7 +221,6 @@
               <div class="t"><span>Correo</span></div>
                <p>turismo@camaradelima.org.pe</p>
              </div>
-           <!-- </div> -->
        </div>
     </section>
     <section class="container">

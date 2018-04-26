@@ -2,9 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif ;
 }
-
+/*----- Carousel ----*/
 .container-B-screen {
   padding-top: 8%;
 }
@@ -74,8 +74,8 @@
 .bg-light {
   background: white!important;
 }
+/*--------- section Inicio -----*/
 .secTwo {
-  /* outline: 1px solid red; */
   margin-top: 16%;
   padding-left: 10%;
   padding-right: 10%;
@@ -115,8 +115,6 @@ h3 {
   color: #013e7d;
 }
 .title, .cont-iso {
-  /* outline: 1px solid blue; */
-  /* padding-top: 2%; */
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -125,14 +123,13 @@ h3 {
 }
 .iso {
   background: url(../assets/Recursos/fondo2.png);
-  height: 220px;
+  min-height: 220px;
   background-size: cover;
   color: #fff;
-  padding-top: 5%;
+  padding-top: 7%;
 }
 .iso:hover {
   background: url(../assets/Recursos/fondo1.png);
-  /* height: 220px; */
   background-size: cover;
 }
 .iso h3  {
@@ -173,7 +170,6 @@ h3 {
   height: 60px;
   width: 60px;
   left: -60px;
-  /* left: 20px !important; */
 }
 
 .slick-next {
@@ -182,11 +178,9 @@ h3 {
   height: 60px;
   width: 60px;
   right: -60px;
-  /* right: 24px !important; */
 }
 
 #slider-cont {
-  /* outline: 1px solid blueviolet; */
   margin: 2%;
   padding-left: 5%;
   padding-right: 5%;
@@ -211,7 +205,6 @@ h3 {
   width: 100px;
   height: 2px;
   background: #013e7d;
-  /* display: inline-block; */
 }
 .cont-contac {
   padding-left: 5%;
@@ -222,7 +215,6 @@ h3 {
   color: #013e7d;
 }
 .diferente {
-  /* outline: 1px solid black; */
   margin-top: 8%;
   margin-bottom: 6%;
   margin-left: 7%;
@@ -298,8 +290,6 @@ h6 {
     padding-right: 6.5%;
   }
   .title, .cont-iso {
-    /* outline: 1px solid blue; */
-    /* padding-top: 2%; */
     padding-left: 6.5%;
     padding-right: 6.5%;
   }
@@ -312,7 +302,6 @@ h6 {
   .item-text {
     padding-top: 6%;
     color: #2c5485;
-    /* padding-right: 18.5%; */
   }
   .caption-1 h2, .caption-1 p {
     padding-right: 19.5%;
@@ -341,10 +330,4 @@ h6 {
   .title  {
     margin-bottom: 4.5%;
   }
-  
 }
-
-
-/* .border {
-  outline: 1px solid green;
-} */
